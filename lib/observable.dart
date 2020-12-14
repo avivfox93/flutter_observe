@@ -1,11 +1,10 @@
-
 class Observable<T> {
   T _value;
   Observable.value(this._value);
 
   final List<Function(T)> _subscribers = [];
   T get value => _value;
-  set value(T val){
+  set value(T val) {
     _value = val;
     notify();
   }
@@ -14,7 +13,7 @@ class Observable<T> {
 
   void unsubscribe(Function(T) callback) => _subscribers.remove(callback);
 
-  void notify(){
+  void notify() {
     _subscribers.forEach((element) => element(_value));
   }
 }
