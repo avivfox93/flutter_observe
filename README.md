@@ -1,4 +1,4 @@
-# flutter_observable
+# flutter_observe
 
 Observable object to track value changes using subscribing and notifying
 

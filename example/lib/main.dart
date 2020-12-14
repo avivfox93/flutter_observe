@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_observable/flutter_observable.dart';
+import 'package:flutter_observe/flutter_observable.dart';
 
 var observable = Observable.value(0);
 var listObservable = Observable.value(List<int>());
