@@ -1,4 +1,4 @@
-name: flutter_observable
+name: flutter_observe
 description: Observable object to track value changes using subscribing and notifying
 version: 0.0.1
 author: Aviv Fox <avivfox93@gmail.com>
