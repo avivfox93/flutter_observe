@@ -1,6 +1,6 @@
 # flutter_observe
 
-![Pub Version](https://img.shields.io/pub/v/flutter_observe)
+[![Pub Version](https://img.shields.io/pub/v/flutter_observe)](https://pub.dev/packages/flutter_observe)
 
 Observable object to track value changes using subscribing and notifying
 
