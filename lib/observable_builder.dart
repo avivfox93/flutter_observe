@@ -56,7 +56,7 @@ class ObservablesBuilder<T> extends StatefulWidget {
   }) : super(key: key);
 
   @override
-  _ObservableBuilderState<T> createState() => _ObservableBuilderState();
+  _ObservablesBuilderState<T> createState() => _ObservablesBuilderState();
 }
 
 class _ObservablesBuilderState<T> extends State<ObservablesBuilder<T>> {
